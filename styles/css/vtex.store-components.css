@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-.infoCardContainer:hover {
-  background-color: white;
-}
-
 .infoCardHeadline {
   font-family: serif;
   font-size: 2.25rem;
@@ -15,6 +11,10 @@
   color: black;
   border: 2px solid black;
   padding: 24px;
+}
+
+.infoCardHeadline:hover {
+background-color: white;
 }
 
 /* primeiro pai, depois filho */
