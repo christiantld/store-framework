@@ -1,13 +1,13 @@
 {
   "store.home": {
-    "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]
+    "blocks": ["info-card#button-right", "info-card#button-left"]
   },
-  "rich-text": {
-    "props": {
-      "text": "**Hello, World!**",
-      "textPosition": "RIGHT"
-    }
-  },
+  // "rich-text": {
+  //   "props": {
+  //     "text": "**Hello, World!**",
+  //     "textPosition": "RIGHT"
+  //   }
+  // },
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -18,7 +18,8 @@
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "blockClass": "vintage"
     }
   },
   "info-card#button-left": {
@@ -31,7 +32,8 @@
       "callToActionMode": "link",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "blockClass": "metal"
     }
   }
 }
