@@ -17,7 +17,6 @@ background-color: white;
   padding: 24px;
 }
 
-/* primeiro pai, depois filho */
 .infoCardCallActionContainer :global(.vtex-button) {
   color: white;
   background-color: gray;
